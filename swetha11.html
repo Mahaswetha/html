@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" maxlength="6" required>
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname"maxlength="8" required>
+  <br><br>
+
+Address:<br>
+<textarea rows="4" cols="40">.
+</textarea>
+<br><br>
+Gender<br>
+<input type="radio" name="gender" value="male" required>
+Male<br>
+<input type="radio" name="gender" value="female" required>
+Female<br>
+Department<br>
+<form action="/action_page.php">
+  <select name="Department" required>
+<option value="">select department</option>
+    <option value="Mechanical">Mechanical Engineering</option>
+    <option ="Computer Science Engineering">Computer Science Engineering</option>
+    <option value=value"Information Technology">Information Technology</option>
+    <option value="Fashion Technology">Fashion Technology</option>
+  </select>
+  <br><br>
+Country<br>
+<form action="/action_page.php">
+  <select name="Country">
+    <option value="India">India</option>
+    <option ="Pakisthan">Pakisthan</option>
+    <option value=value"U.S.A">U.S.A</option>
+    <option value="UK">UK</option>required
+  </select>
+  <br><br>
+Subjects<br>
+<form action="/action_page.php">
+  <select name="Subjects" size="4" multiple>
+    <option value="RMT">RMT</option>
+    <option value="OOAD">OOAD</option>
+    <option value="DSP">DSP</option>
+    <option value="DM">DM</option>
+  </select>
+  <br><br>
+</form>
+<input type="submit" value="submit">
+<button type="cancel"  onclick="alert('cancel')">cancel</button>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+<p>If you click the "Cancel" button,the form-data will be canceled to a page called "/action_page.php".</p>
+
+</body>
+</html>
